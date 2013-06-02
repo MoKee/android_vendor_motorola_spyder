@@ -95,3 +95,8 @@ $(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.spyder
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.spyder.so:/system/lib/hw/sensors.spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/power.omap4.so:/system/lib/hw/power.omap4.so
 
+# audio
+PRODUCT_COPY_FILES += \
+$(VENDOR_BLOB_FOLDER)/lib/libaudio_ext.so:/system/lib/libaudio_ext.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/alsa.omap4.so:/system/lib/hw/alsa.omap4.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/audio.primary.omap4.so:/system/lib/hw/audio.primary.omap4.so
